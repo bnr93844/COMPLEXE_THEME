@@ -1,6 +1,19 @@
 [
   {
-    "name": "theme_info",
-    "settings": []
+    "name": "Theme settings",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Background color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#ffffff"
+      }
+    ]
   }
 ]
