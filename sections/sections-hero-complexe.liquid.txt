@@ -1,0 +1,20 @@
+<section class="hero-complexe" role="banner">
+  <div class="hero__media" data-parallax data-parallax-speed="0.18">
+    <video class="hero__video" autoplay muted loop playsinline poster="{{ 'dubai_skyline_placeholder.jpg' | asset_url }}">
+      <source src="{{ 'dubai_skyline.mp4' | asset_url }}" type="video/mp4">
+    </video>
+    <div class="gradient-sheen" aria-hidden="true"></div>
+  </div>
+  <div class="hero__content" data-animate>
+    <img
+      src="{{ 'complexe_wordmark_gold3D_dark.svg' | asset_url }}"
+      alt="COMPLEXE"
+      class="hero__logo"
+      loading="lazy"
+    >
+    <p class="hero__tagline">Redefine the Shape of Confidence.</p>
+    <div class="button-row">
+      {% render 'gold-cta' %}
+    </div>
+  </div>
+</section>

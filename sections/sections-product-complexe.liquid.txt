@@ -1,0 +1,30 @@
+<section class="product-section" aria-labelledby="product-complexe-heading">
+  <div class="product-complexe" data-animate>
+    <div class="product__media" data-parallax data-parallax-speed="0.08">
+      <img
+        data-lazy
+        data-src="{{ 'body_product.jpg' | asset_url }}"
+        alt="The COMPLEXE Body silhouette"
+        width="680"
+        height="900"
+      >
+    </div>
+    <div class="product__details">
+      <h2 id="product-complexe-heading">The COMPLEXE Body</h2>
+      <p>Sculpt, smooth, and elevate your silhouette.</p>
+      <p>Lightweight precision. Invisible power.</p>
+      <label for="complexe-size" class="visually-hidden">Select Size</label>
+      <select id="complexe-size" name="size" aria-label="Select Size">
+        <option value="s">Select Size — S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+      </select>
+      <p class="product__price">$79.00</p>
+      <div class="button-row">
+        {% render 'gold-cta' %}
+      </div>
+      <p class="product__low-stock">Only 12 left — High demand in Dubai.</p>
+    </div>
+  </div>
+</section>

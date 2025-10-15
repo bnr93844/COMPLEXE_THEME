@@ -1,0 +1,20 @@
+<section class="testimonials-complexe" aria-labelledby="testimonials-heading">
+  <div class="shimmer-layer">{% render 'shimmer-bg' %}</div>
+  <div class="testimonials__content" data-animate>
+    <h2 id="testimonials-heading">Loved by Women Across the Gulf.</h2>
+    <div class="testimonials__grid">
+      <article class="testimonial-card" tabindex="0">
+        <p>“COMPLEXE gives me the sculpt I want for every gala night. Seamless, strong, and breathable.”</p>
+        <p class="testimonial__location">Dubai</p>
+      </article>
+      <article class="testimonial-card" tabindex="0">
+        <p>“It holds everything flawlessly without a trace under my abayas. Confidence in every step.”</p>
+        <p class="testimonial__location">Riyadh</p>
+      </article>
+      <article class="testimonial-card" tabindex="0">
+        <p>“Finally, shapewear that survives the Gulf heat while keeping the couture lines sharp.”</p>
+        <p class="testimonial__location">Doha</p>
+      </article>
+    </div>
+  </div>
+</section>

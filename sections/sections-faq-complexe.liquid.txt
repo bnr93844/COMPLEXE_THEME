@@ -1,0 +1,44 @@
+<section class="faq-section" aria-labelledby="faq-heading">
+  <div class="section-heading" data-animate>
+    <h2 id="faq-heading">Frequently Asked Questions</h2>
+    <p>Your essentials before stepping into the COMPLEXE Body.</p>
+  </div>
+  <div class="faq-complexe">
+    <div class="faq-item">
+      <button class="faq-toggle" aria-expanded="false">
+        <h3>Is it visible under clothing?</h3>
+        <span class="icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-content">
+        <p>Crafted with bonded seams and ultra-flat edges, The COMPLEXE Body disappears beneath even the most fluid silks.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-toggle" aria-expanded="false">
+        <h3>Does it handle heat?</h3>
+        <span class="icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-content">
+        <p>Temperature-responsive yarns and breathable mesh panels keep you cool from desert days to midnight events.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-toggle" aria-expanded="false">
+        <h3>How fast is delivery?</h3>
+        <span class="icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-content">
+        <p>GCC orders ship from Dubai with express options—expect your sculpt within 2-3 business days.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-toggle" aria-expanded="false">
+        <h3>Can I return it?</h3>
+        <span class="icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-content">
+        <p>Yes. Experience the fit risk-free with 30-day exchanges or store credit on unworn, sealed garments.</p>
+      </div>
+    </div>
+  </div>
+</section>

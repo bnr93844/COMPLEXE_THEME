@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page_title }} &ndash; COMPLEXE</title>
+    <meta name="description" content="Redefine the Shape of Confidence with The COMPLEXE Body, a luxury sculpting bodysuit crafted for the Gulf.">
+    <meta property="og:site_name" content="COMPLEXE">
+    <meta property="og:title" content="The COMPLEXE Body">
+    <meta property="og:description" content="Luxury sculpting shapewear engineered for Gulf climates.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ 'complexe_wordmark_gold3D_dark.svg' | asset_url }}">
+    <link rel="icon" href="{{ 'complexe_favicon.svg' | asset_url }}" type="image/svg+xml">
+    {{ 'brand.css' | asset_url | stylesheet_tag }}
+    {{ 'complexe.css' | asset_url | stylesheet_tag }}
+    {{ content_for_header }}
+  </head>
+  <body class="complexe-theme">
+    {{ content_for_layout }}
+    {{ 'brand.js' | asset_url | script_tag }}
+    {{ 'complexe.js' | asset_url | script_tag }}
+  </body>
+</html>

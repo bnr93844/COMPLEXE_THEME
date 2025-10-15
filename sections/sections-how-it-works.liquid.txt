@@ -1,0 +1,29 @@
+<section class="how-it-works" aria-labelledby="how-it-works-heading">
+  <div class="section-heading" data-animate>
+    <h2 id="how-it-works-heading">How The COMPLEXE Body Works</h2>
+    <p>Engineered sculpting architecture that moves with you.</p>
+  </div>
+  <div class="how-it-works__steps">
+    <article class="how-it-works__card" data-animate>
+      <div class="how-it-works__icon" aria-hidden="true">
+        <img src="{{ 'icon1.svg' | asset_url }}" alt="" loading="lazy">
+      </div>
+      <h3>Sculpt</h3>
+      <p>Compression technology contours without compromise, defining a statuesque silhouette.</p>
+    </article>
+    <article class="how-it-works__card" data-animate>
+      <div class="how-it-works__icon" aria-hidden="true">
+        <img src="{{ 'icon2.svg' | asset_url }}" alt="" loading="lazy">
+      </div>
+      <h3>Smooth</h3>
+      <p>Invisible seams and seamless edges vanish under any couture ensemble.</p>
+    </article>
+    <article class="how-it-works__card" data-animate>
+      <div class="how-it-works__icon" aria-hidden="true">
+        <img src="{{ 'icon3.svg' | asset_url }}" alt="" loading="lazy">
+      </div>
+      <h3>Elevate</h3>
+      <p>Strategic posture support lifts and lengthens, empowering all-day poise.</p>
+    </article>
+  </div>
+</section>

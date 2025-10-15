@@ -1,0 +1,3 @@
+{% section 'product-complexe' %}
+{% section 'faq-complexe' %}
+{% section 'testimonials-complexe' %}
